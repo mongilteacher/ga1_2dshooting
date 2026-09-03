@@ -24,8 +24,12 @@ public class Bullet : MonoBehaviour
         // 나죽고!
         Destroy(this.gameObject);
 
-        // 너죽자!
-        Destroy(collision.gameObject);
+        // 충돌한 친구가 Enemy일때만 죽여쁠자!
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            // GetComponent<타입>() -> 게임 오브젝트가 가지고 있는 컴포넌트를 참조
+            Enemy enemy = collision.gameObject.GetComponent<Enemy>();
+        }
     }
 
     private void OnCollisionStay2D(Collision2D collision)
