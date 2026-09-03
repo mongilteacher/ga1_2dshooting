@@ -18,9 +18,6 @@ public class Bullet : MonoBehaviour
     // 충돌이 시작되면 호출되는 이벤트 함수
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("충돌 했다!");
-
-
         // 나죽고!
         Destroy(this.gameObject);
 

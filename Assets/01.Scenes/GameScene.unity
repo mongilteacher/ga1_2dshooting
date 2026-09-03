@@ -128,7 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 132933321}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftFirePoint
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -144,7 +144,7 @@ Transform:
   m_GameObject: {fileID: 132933320}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.476, y: 0.559, z: 0}
+  m_LocalPosition: {x: -0.19, y: 0.149, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -159,7 +159,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 288131497}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightFirePoint
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -175,7 +175,7 @@ Transform:
   m_GameObject: {fileID: 288131496}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.197, y: 0.56, z: 0}
+  m_LocalPosition: {x: 0.092, y: 0.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -530,7 +530,7 @@ GameObject:
   - component: {fileID: 1902603603}
   - component: {fileID: 1902603605}
   - component: {fileID: 1902603604}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
