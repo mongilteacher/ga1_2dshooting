@@ -29,6 +29,7 @@ public abstract class Enemy : MonoBehaviour
         if (!other.CompareTag("Player")) return;
 
         Player player = other.GetComponent<Player>();
+        if (player == null) return;
         player.TakeDamage(_damage);
 
         Destroy(gameObject);
