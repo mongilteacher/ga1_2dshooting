@@ -8,8 +8,8 @@ public class BulletPool : MonoBehaviour
     // 메모리 할당과(객체의 생성) 해제(파괴)를 최소화해서 성능 Up!
 
     // 필요 속성
-    [Header("총알 프리팹")]
-    [SerializeField] private Bullet _bulletPrefab;
+    [Header("총알 프리팹들")]
+    [SerializeField] private Bullet[] _bulletPrefabs;
 
     [Header("풀 사이즈")]
     [SerializeField] private int _poolSize;
@@ -33,19 +33,27 @@ public class BulletPool : MonoBehaviour
         // 창고를 창고 크기만큼 만든다.
         _pool = new Bullet[_poolSize];
 
-        // 창고 크기 만큼 총알을 미리 만들어서 집어 넣는다.
-        for (int i = 0; i < _poolSize; i++)
+        // 총알 프리팹 종류와 창고 크기 만큼 총알을 미리 만들어서 집어 넣는다.
+        foreach (Bullet bulletPrefab in _bulletPrefabs) // [메인 총알 프리팹, 서브 총알 프리팹]
         {
-            Bullet bullet = Instantiate(_bulletPrefab, gameObject.transform);
-            bullet.gameObject.SetActive(false); // 당장 사용할거 아니기에 비활성화
-            _pool[i] = bullet;
+            for (int i = 0; i < _poolSize; i++)
+            {
+                Bullet bullet = Instantiate(bulletPrefab, gameObject.transform);
+                bullet.gameObject.SetActive(false); // 당장 사용할거 아니기에 비활성화
+                _pool[i] = bullet;
+            }
         }
     }
 
-    public Bullet GetBullet()
+    public Bullet GetBullet(BulletType bulletType)
     {
         foreach (Bullet bullet in _pool)
         {
+            if (bullet.Type != bulletType)
+            {
+                continue;
+            }
+
             // 비활성화 되어있는 (즉, 누가 빌려가지 않은 ) 총알 반환
             if (bullet.gameObject.activeSelf == false)
             {
