@@ -7,10 +7,14 @@ public class PlayerFire : MonoBehaviour
     // 필요 속성
     // - 총알 프리팹
     public GameObject BulletPrefab;
+    public Bullet SubBulletPrefab;
 
     // - 생성 위치(총구)
     public Transform LeftFirePoint;
     public Transform RightFirePoint;
+    public Transform SubLeftFirePoint;
+
+    public Transform SubRightFirePoint;
 
     // - 쿨타이머
     private const float MinCoolTime = 0.06f;
@@ -62,6 +66,12 @@ public class PlayerFire : MonoBehaviour
 
         Bullet rightBullet = BulletPool.Instance.GetBullet();
         rightBullet.transform.position = RightFirePoint.position; // 생성한 총알의 위치를 총구의 위치로
+
+        Bullet subLeftBullet = Instantiate(SubBulletPrefab);
+        subLeftBullet.transform.position = SubLeftFirePoint.position; // 생성한 총알의 위치를 총구의 위치로
+
+        Bullet subRightBullet = Instantiate(SubBulletPrefab);
+        subRightBullet.transform.position = SubRightFirePoint.position; // 생성한 총알의 위치를 총구의 위치로
     }
 
     public void FireRateUp(float upValue)
