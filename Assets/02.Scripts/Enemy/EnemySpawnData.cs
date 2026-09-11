@@ -6,5 +6,5 @@ using UnityEngine;
 public class EnemySpawnData
 {
     public GameObject EnemyPrefab;
-    public int Weight;
+    [Range(0, 1000)] public int Weight;
 }

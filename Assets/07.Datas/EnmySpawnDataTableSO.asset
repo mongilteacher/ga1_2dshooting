@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnmySpawnDataTableSO
   Datas:
   - EnemyPrefab: {fileID: 1772352097392159325, guid: 1c4625ae20575dd41bc439d66891e687, type: 3}
-    Weight: 40
+    Weight: 249
   - EnemyPrefab: {fileID: 5263882387325753545, guid: bfe957ad7f4344346905bb5795f4cfa3, type: 3}
     Weight: 30
   - EnemyPrefab: {fileID: 7266651809476765594, guid: 469b17d55c79bf74eb82f502f91f2be3, type: 3}
