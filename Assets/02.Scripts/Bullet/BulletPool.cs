@@ -31,7 +31,7 @@ public class BulletPool : MonoBehaviour
         _instance = this;
 
         // 창고를 창고 크기만큼 만든다.
-        _pool = new Bullet[_poolSize];
+        _pool = new Bullet[_poolSize * _bulletPrefabs.Length];
 
         // 총알 프리팹 종류와 창고 크기 만큼 총알을 미리 만들어서 집어 넣는다.
         foreach (Bullet bulletPrefab in _bulletPrefabs) // [메인 총알 프리팹, 서브 총알 프리팹]
