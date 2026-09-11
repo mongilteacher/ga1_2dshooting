@@ -7,7 +7,7 @@ public class EnemySpawner : MonoBehaviour
     // - 타이머
     [SerializeField] private float _spawnInterval = 3f;
 
-    [SerializeField] private EnmySpawnDataTableSO _spawnDataTable;
+    [SerializeField] private EnemySpawnDataTableSO _spawnDataTable;
 
     private float _timer;
 
