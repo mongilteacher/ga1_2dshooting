@@ -1,0 +1,41 @@
+{
+    "asset": "3f3ab1739ccb9f8438c9d0578abcd713",
+    "fileName": "01a0a7e5-bed4-7fd9-9bfc-7bf3d473136d.png",
+    "prompt": "A cute 16-bit retro pixel art game UI square button for 'AUTO OFF' combat mode. Dimmed muted slate gray and soft dark reddish tone rounded square button with 3D beveled pixel border, featuring a cute sleeping/disabled robot icon and bold pixel text 'AUTO OFF'. Crisp pixel art, limited color palette, isolated on plain white background, matching the exact shape and retro 2D arcade pixel art game UI style.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "6875e9ca69087ec4782ba183e2643e08",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

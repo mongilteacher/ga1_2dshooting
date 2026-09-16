@@ -1,0 +1,15 @@
+{
+    "asset": "2a0bc24a51c74674c85bd5cd713e55b1",
+    "fileName": "01a0a7ed-b51c-7d82-bcad-3661a2936fe0.mp3",
+    "prompt": "genre: chiptune 8-bit 16-bit retro arcade video game music, instruments: square wave, synth arpeggio, 8-bit drums, chiptune bass, tempo: fast 135 bpm, mood: energetic catchy upbeat exciting space shooter, arrangement: structured loopable intro and verse, retro shoot-em-up background music",
+    "negativePrompt": "",
+    "model": "google-lyria-3-clip",
+    "modelName": "Google Lyria 3 Clip",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 30.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

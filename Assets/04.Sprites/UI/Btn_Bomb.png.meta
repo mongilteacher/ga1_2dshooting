@@ -1,10 +1,12 @@
 fileFormatVersion: 2
-guid: 1f973bf56933b5749b712e4f363ca8b7
+guid: 0e0bcaf4f82a2d4418bac9ce19df6b5f
+labels:
+- UnityAI
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1206005349077091292
-    second: Auto_On_0
+      213: -8267062022622293527
+    second: Btn_Bomb_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +48,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -126,23 +128,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Auto_On_0
+      name: Btn_Bomb_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 500
-        height: 500
+        y: 414
+        width: 596
+        height: 610
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd306fca9779cb010800000000000000
-      internalID: 1206005349077091292
+      spriteID: 9e1d97524ee754d80800000000000000
+      internalID: -8267062022622293527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Btn_Bomb_1
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 591
+        width: 419
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc597894f5b6df3478a5b45400574a74
+      internalID: -258614421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Btn_Bomb_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 403
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4557631d23058734692aff8e97072d71
+      internalID: 1239614513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Btn_Bomb_3
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 250
+        width: 420
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a442dce2f1ca904199673c67213ddf1
+      internalID: -404161824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Btn_Bomb_4
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 0
+        width: 203
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86559a16c75374d4a84a9a8744c89186
+      internalID: 337888786
       vertices: []
       indices: 
       edges: []
@@ -159,9 +249,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Auto_On_0: 1206005349077091292
+      Btn_Bomb_0: -8267062022622293527
+      Btn_Bomb_1: -258614421
+      Btn_Bomb_2: 1239614513
+      Btn_Bomb_3: -404161824
+      Btn_Bomb_4: 337888786
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
