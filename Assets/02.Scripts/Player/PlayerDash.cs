@@ -9,6 +9,5 @@ public class PlayerDash : MonoBehaviour
     private void Update()
     {
         GameObject test = GameObject.Find("dsfsd");
-        test.Level = 3;
     }
 }
