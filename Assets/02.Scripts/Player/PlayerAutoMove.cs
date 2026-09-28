@@ -35,7 +35,7 @@ public class PlayerAutoMove : MonoBehaviour
             direction.y = -1;
         }
 
-        //direction.Normalize();
+        direction.Normalize();
 
 
         // 3. 속도에 맞게 이동을한다.
